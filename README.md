@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Precision Refractory Solutions - Stara Group Website
+
+A modern, responsive website for Stara Group's precision refractory solutions for steel and foundry operations.
+
+## Features
+
+- ✅ Fully responsive design
+- ✅ Modern UI with Tailwind CSS
+- ✅ All content from PDF accurately replicated
+- ✅ Optimized for production
+- ✅ Ready for Vercel deployment
+
+## Tech Stack
+
+- **Next.js 16** - React framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **App Router** - Next.js App Router architecture
 
 ## Getting Started
 
-First, run the development server:
+### Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Deployment to Vercel
 
-To learn more about Next.js, take a look at the following resources:
+### Option 1: Deploy via Vercel CLI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Install Vercel CLI:
+```bash
+npm i -g vercel
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Deploy:
+```bash
+cd stara-refractory-website
+vercel
+```
 
-## Deploy on Vercel
+### Option 2: Deploy via Vercel Dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Go to [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Import your repository
+5. Vercel will automatically detect Next.js and configure the project
+6. Click "Deploy"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Option 3: Deploy via Git Integration
+
+1. Connect your Git repository to Vercel
+2. Vercel will automatically deploy on every push to main/master branch
+
+## Project Structure
+
+```
+stara-refractory-website/
+├── app/
+│   ├── layout.tsx       # Root layout
+│   ├── page.tsx         # Home page
+│   └── globals.css      # Global styles
+├── components/
+│   ├── Navbar.tsx       # Navigation component
+│   ├── Hero.tsx         # Hero section
+│   ├── ManufacturingExcellence.tsx
+│   ├── WhyChoose.tsx
+│   ├── CompanyProfile.tsx
+│   ├── Philosophy.tsx
+│   ├── CoreProducts.tsx
+│   ├── ProductDetails.tsx
+│   ├── Industries.tsx
+│   ├── QualityControl.tsx
+│   ├── Commitment.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+└── public/              # Static assets
+```
+
+## Sections
+
+- **Hero** - Main landing section with CTA buttons
+- **Manufacturing Excellence** - Overview and product categories
+- **Why Choose** - Key benefits
+- **Company Profile** - About the organization
+- **Philosophy** - Technical approach
+- **Core Products** - Product portfolio overview
+- **Product Details** - Detailed product information
+- **Industries** - Industries served
+- **Quality Control** - Quality and manufacturing infrastructure
+- **Commitment** - Customer operations commitment
+- **Contact** - Contact information and RFQ form
+
+## Contact Information
+
+- **Email**: yash@staragroup.in
+- **Phone**: +91 7004856516
+- **Location**: Jamshedpur, Jharkhand - 831001, India
+
+## License
+
+© 2024 Stara Group. All rights reserved.
