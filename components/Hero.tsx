@@ -7,8 +7,8 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/80 z-10"></div>
         <Image
-          src="/images/hero-steel-foundry.png"
-          alt="Epic industrial steel foundry at night with molten steel pouring from ladle, intense orange glow, sparks flying"
+          src="/images/1.png"
+          alt="Industrial steel foundry at night with molten steel pouring from ladle and sparks"
           fill
           priority
           className="object-cover"

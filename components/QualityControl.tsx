@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function QualityControl() {
   const qualityPoints = [
     {
@@ -31,6 +33,19 @@ export default function QualityControl() {
             <br />
             <span className="text-blue-600">Manufacturing Infrastructure</span>
           </h2>
+        </div>
+
+        <div className="relative mb-16 rounded-2xl overflow-hidden border border-gray-200 shadow-2xl">
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/10 z-10" />
+          <div className="aspect-[3/2] relative">
+            <Image
+              src="/images/3.png"
+              alt="Metallurgical laboratory with scientists inspecting samples"
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-16">

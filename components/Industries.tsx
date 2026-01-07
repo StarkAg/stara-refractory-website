@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Industries() {
   return (
     <section className="py-24 px-4 bg-gray-900 text-white">
@@ -8,6 +10,19 @@ export default function Industries() {
             <br />
             <span className="text-blue-400">We Serve</span>
           </h2>
+        </div>
+
+        <div className="relative mb-16 rounded-2xl overflow-hidden border border-gray-800 shadow-2xl">
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30 z-10" />
+          <div className="aspect-[3/2] relative">
+            <Image
+              src="/images/2.png"
+              alt="Integrated steel plant with continuous casting line"
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">

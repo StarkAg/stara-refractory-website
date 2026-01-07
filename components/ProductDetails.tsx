@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ProductDetails() {
   const products = [
     {
@@ -142,6 +144,19 @@ export default function ProductDetails() {
       <div className="max-w-7xl mx-auto space-y-16">
         {products.map((product, index) => (
           <div key={index} className="bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-gray-200 p-8 md:p-12">
+            {product.title === "Flow Control Refractories & Nozzle Systems" && (
+              <div className="relative mb-6 rounded-xl overflow-hidden border border-gray-200 bg-gray-50">
+                <div className="aspect-[1/1] relative">
+                  <Image
+                    src="/images/4.png"
+                    alt="Ladle nozzle system controlling molten steel flow"
+                    fill
+                    className="object-cover"
+                    sizes="100vw"
+                  />
+                </div>
+              </div>
+            )}
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">{product.title}</h2>
 
             {product.content.function && (

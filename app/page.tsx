@@ -28,6 +28,6 @@ export default function Home() {
       <Commitment />
       <Contact />
       <Footer />
-    </main>
+      </main>
   );
 }
