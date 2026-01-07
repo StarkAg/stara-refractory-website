@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function ManufacturingExcellence() {
   return (
     <section id="overview" className="py-24 px-4 bg-gradient-to-b from-white to-gray-50">
@@ -13,45 +11,29 @@ export default function ManufacturingExcellence() {
           </h2>
         </div>
 
-        {/* Hero Image Section */}
-        <div className="mb-20 rounded-2xl overflow-hidden shadow-2xl">
-          <div className="relative h-[500px] bg-gray-900 flex items-center justify-center">
-            <div className="text-center p-8 border-2 border-dashed border-gray-700 rounded-lg bg-gray-800/50">
-              <p className="text-gray-400 text-sm mb-2 font-semibold">NANOBANANA PROMPT:</p>
-              <p className="text-gray-300 text-sm max-w-3xl">
-                "Aerial view of massive steel manufacturing facility, continuous casting line in operation, 
-                industrial architecture, early morning mist, dramatic sky, ultra-wide angle, professional 
-                industrial photography, cinematic lighting, 8K resolution, high detail"
-              </p>
-            </div>
-          </div>
-        </div>
-
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-gray-900 mb-8">Industries We Serve</h3>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <p className="text-lg text-gray-700 leading-relaxed mb-6 font-light">
-                Our technical consumables support critical operations across steel manufacturing and foundry applications. 
-                From induction furnace operations to continuous casting lines, we deliver consistent material performance 
+                Our technical consumables support critical operations across steel manufacturing and foundry applications.
+                From induction furnace operations to continuous casting lines, we deliver consistent material performance
                 where process reliability matters most.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed font-light">
-                We understand the operational challenges faced by metallurgical facilities: thermal management, metal quality 
-                control, process efficiency, and uptime requirements. Our product portfolio addresses these fundamental needs 
+                We understand the operational challenges faced by metallurgical facilities: thermal management, metal quality
+                control, process efficiency, and uptime requirements. Our product portfolio addresses these fundamental needs
                 with proven engineering solutions.
               </p>
             </div>
-            <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl">
-              <div className="w-full h-full bg-gray-900 flex items-center justify-center">
-                <div className="text-center p-6 border-2 border-dashed border-gray-700 rounded-lg bg-gray-800/50">
-                  <p className="text-gray-400 text-xs mb-2 font-semibold">NANOBANANA PROMPT:</p>
-                  <p className="text-gray-300 text-xs max-w-xs">
-                    "Close-up of molten steel in induction furnace, intense heat glow, industrial precision, 
-                    professional macro photography, dramatic lighting, ultra-realistic, 8K"
-                  </p>
-                </div>
-              </div>
+            <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-md">
+              <h4 className="text-xl font-bold text-gray-900 mb-4">Operational Focus</h4>
+              <ul className="space-y-3 text-gray-700 font-light">
+                <li>• Thermal management and heat containment</li>
+                <li>• Metal quality and cleanliness control</li>
+                <li>• Process efficiency and casting speed</li>
+                <li>• Uptime and maintenance reliability</li>
+              </ul>
             </div>
           </div>
         </div>
