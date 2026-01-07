@@ -143,7 +143,10 @@ export default function ProductDetails() {
     <section className="py-24 px-4 bg-gradient-to-b from-white via-gray-50 to-white">
       <div className="max-w-7xl mx-auto space-y-16">
         {products.map((product, index) => (
-          <div key={index} className="bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-gray-200 p-8 md:p-12">
+          <div
+            key={index}
+            className="bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-gray-200 p-8 md:p-12 text-center md:text-left"
+          >
             {product.title === "Flow Control Refractories & Nozzle Systems" && (
               <div className="relative mb-6 rounded-xl overflow-hidden border border-gray-200 bg-gray-50">
                 <div className="aspect-[1/1] relative">

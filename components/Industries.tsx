@@ -26,7 +26,7 @@ export default function Industries() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
-          <div className="bg-gray-800 rounded-2xl p-8 shadow-2xl border border-gray-700">
+          <div className="bg-gray-800 rounded-2xl p-8 shadow-2xl border border-gray-700 text-center md:text-left">
             <h3 className="text-3xl font-bold mb-6 text-blue-400">Steel Manufacturing Sector</h3>
             <p className="text-gray-300 mb-6 leading-relaxed font-light">
               We support integrated steel plants, mini-mills, and specialty steel producers with refractory consumables for multiple process stages:
@@ -42,7 +42,7 @@ export default function Industries() {
             </p>
           </div>
 
-          <div className="bg-gray-800 rounded-2xl p-8 shadow-2xl border border-gray-700">
+          <div className="bg-gray-800 rounded-2xl p-8 shadow-2xl border border-gray-700 text-center md:text-left">
             <h3 className="text-3xl font-bold mb-6 text-blue-400">Foundry Industry Applications</h3>
             <p className="text-gray-300 mb-6 leading-relaxed font-light">
               Serving grey iron, ductile iron, steel, and non-ferrous foundries with furnace and casting consumables:

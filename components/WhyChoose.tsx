@@ -36,7 +36,7 @@ export default function WhyChoose() {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="group bg-gray-800 rounded-xl p-8 hover:bg-gray-750 shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2 border border-gray-700 hover:border-blue-500/50"
+              className="group bg-gray-800 rounded-xl p-8 hover:bg-gray-750 shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2 border border-gray-700 hover:border-blue-500/50 text-center md:text-left"
             >
               <h3 className="text-2xl font-bold mb-4 text-blue-400">{benefit.title}</h3>
               <p className="text-gray-300 leading-relaxed font-light">{benefit.description}</p>

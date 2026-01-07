@@ -38,7 +38,7 @@ export default function Commitment() {
           {commitments.map((commitment, index) => (
             <div
               key={index}
-              className="group bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-200 hover:border-blue-500"
+              className="group bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-200 hover:border-blue-500 text-center md:text-left"
             >
               <h3 className="text-2xl font-bold text-gray-900 mb-4">{commitment.title}</h3>
               <p className="text-gray-700 leading-relaxed font-light">{commitment.description}</p>
